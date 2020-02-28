@@ -36,7 +36,7 @@ inquirer
 
 
 function writeToFile(data) {
-    fs.writeFile(__dirname + '/test_README.md', data, function(err){
+    fs.writeFile(__dirname + '/output/README.md', data, function(err){
         if(err) throw err;
         process.exit();
     });
